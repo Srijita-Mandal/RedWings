@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+#logo{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #af0000;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav{
+    background: #ffd2d9;
+    /* background: #ad2c41 */
+}
+
+nav ul li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+@media(max-width:992px){
+  .contactnav{
+    padding-left: 32px;
+    padding-bottom: 20px;
+  }
+
+  .navbar{
+    padding-bottom: 32px !important;
+  }
+
+  .navbtn{
+    padding-left: 32px;
+  }
+}
+
+#home {
+    color: #af0000;
+    font-size: 1rem;
+    transition-property: color,background-color;
+    transition-duration: 200ms;
+}
+
+#home:hover{
+    color:#fff;
+    background-color: #af0000;
+    border-radius: 5px;
+}
+
+#about {
+    color: #af0000;
+    font-size: 1rem;
+    transition-property: color,background-color;
+    transition-duration: 200ms;
+}
+
+#about:hover{
+  color:#fff;
+  background-color: #af0000;
+  border-radius: 5px;
+}
+
+#services {
+    color: #af0000;
+    font-size: 1rem;
+    transition-property: color,background-color;
+    transition-duration: 200ms;
+}
+
+#services:hover{
+  color:#fff;
+  background-color: #af0000;
+  border-radius: 5px;
+}
+/* .dropdown-menu{
+    background-color: #ffd2d9;
+} */
+.dropdown-item.active{
+    background-color: #fff;
+    color: #af0000;
+}
+
+#contact {
+    color: #af0000;
+    font-size: 1rem;
+    transition-property: color,background-color;
+    transition-duration: 200ms;
+}
+
+#contact:hover{
+  color:#fff;
+  background-color: #af0000;
+  border-radius: 5px;
+}
+
+.sign{
+    margin-right: 1rem;
+}
+
+
+
+#acc .accordion {
+    background-color: #ffeff1;
+    color: #9b0000;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-shadow: 0 3px 0 #9b0000;
+    border: none;
+    /* border: 2px solid #9b0000; */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+ #acc .active, .accordion:hover {
+    background-color: #ffd2d9;
+  }
+  
+ #acc .accordion:after {
+    content: '\002B';
+    color: #9b0000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+ #acc .active:after {
+    content: "\2212";
+  }
+  
+ #acc .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+  #service_section .card{
+    cursor: pointer;
+    border-radius: 15px;
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+  }
+  
+  #service_section .card:hover{
+    box-shadow: 3px 3px 10px #9e0000;
+  }
+
+  #contact_animation lottie-player{
+    width: 400px;
+    height: 400px;
+  }
+
+  @media(max-width:768px){
+    #contact_animation lottie-player{
+      width: 280px;
+      height: 280px;
+    }
+  }
+
+.services_image{
+  width: 300px;
+  height: 220px;
+}
+
+@media(max-width:768px){
+  .services_image{
+    width: 200px;
+    height: 150px;
+  }
+}
+
+#home-img lottie-player{
+  height: 500px;
+  width: 500px;
+}
+
+@media(max-width:768px){
+  #home-img{
+    /* display:none; */
+    display:flex;
+    justify-content: center;
+  }
+  #home-img lottie-player{
+    height: 300px;
+    width: 300px;
+  }
+  #our_branch{
+    text-align: center;
+  }
+}
+
+
+
+.header-nav{
+    position: fixed; 
+    width: 100%;
+  }
+  h2{
+    color: #973c3c;;
+  }
+  .list{
+      margin-left: 14px;
+  }
+  #logo{
+      color: rgb(144, 6, 6);
+  }
+  #logo2{
+      color: rgb(11, 64, 188);
+      font-size: 20px;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap");
+  
+  :root {
+    --dark-green: #006400;
+    --dark-red: #8b0000;
+    --dark-blue: #00008b;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  
+  .nav-texts {
+    color: var(--dark-green);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-texts:hover {
+    border-bottom: #006400 solid 2px;
+  }
+  
+  .site-name {
+    color: var(--dark-green);
+  }
+  
+  .home-page-bold-text {
+    color: var(--dark-red);
+    padding: 8px;
+    margin-top: 150px;
+  }
+  
+  .home-page-desc {
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-family: "Tiro-bangla";
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .know-more-btn {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    border-width: 3px;
+  }
+  
+  .nav-btns {
+    font-weight: bold;
+    color: var(--dark-red);
+    border-width: 3px;
+  }
+  
+  /* 
+  .home-cont {
+    height: 100vh;
+    width: 100%;
+  } */
+  .card-title {
+    text-align: center;
+  }
+  .card{
+    margin: 0 10px;
+  }
+  
+  .home-content {
+    padding :0 0 0 7%;
+  }
+  a{
+    text-emphasis-style: none;
+  }
+  /* .home-img {
+    margin-top: 70px; 
+     margin-left: 100px; 
+  } */
+  @media only screen and (max-width: 1100px) {
+    .home-img {
+      display: none;
+    }
+  }
+  .experience {
+    height: auto;
+  }
+  .ex-header{
+    color: #000000;
+  }
+  
+  .ex-cont {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .services {
+    height: auto;
+  }
+  
+  .padd-15 {
+    padding: 50px;
+  }
+  
+  .faq {
+    height: auto;
+  }
+  
+  .mar-15 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content-cont {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home-items-all {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+.formimage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#signup{
+  padding-top: 20px;
+  color: #af0000;
+  /* padding-bottom: 1rem; */
+}
+
+/* #sign_img lottie-player{
+    height: 400px;
+    width: 400px;
+    margin-top: 4rem;
+} */
+
+#submitbtn{
+    background-color: #cb0404;
+    color: #ffffff;
+}
+
+#submitbtn:hover{
+    background-color: #af0000;
+    /* color: #ffffff; */
+    /* box-shadow: 5px 5px 10px #a06c7c; */
+}
+
+.signup_field{
+    width: 90%;
+}
+
+
+
+#signup_form input{
+    background-color: #ffeff1;
+    border-color: #af0000;
+}
+
+#signup_form input ::placeholder{
+    color: #242424;
+}
+.signup_field:hover{
+  /* box-shadow: 5px 8px #a06c7c; */
+  box-shadow: inset 0 0 0 0.05rem #a30404;
+  /* border: 2px #a30404 solid !important; */
+}
+.slabel{
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: large;
+  font-weight: 400;
+}
+
+p{
+    color: black;
+    padding-top: 0.5rem;
+}
+
+p a {
+    color: #af0000;
+    text-decoration: none;
+}
+
+p a:hover{
+    color: #af0000;
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    body{
+        width: 100vw;
+        height: 100%;
+    }
+    .signup_field{
+      width: 100%;
+    }
+    #signup{
+        margin: auto;
+        text-align: center;
+    }
+    #submitbtn{
+        display: block;
+        margin: auto;
+    }
+    p{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:992ppx){
+    body{
+        width: 100vw;
+        height: 100%;
+    }
+    .signup_field{
+        width: 20rem;
+    }
+}
+
+
+
+
+#loginbtn{
+    background-color: #af0000;
+    color: #ffffff;
+}
+
+#loginbtn:hover{
+    background-color: #af0000;
+    color: #ffffff;
+    box-shadow: 5px 5px 10px #a06c7c;
+}
+
+#login{
+    color: #af0000;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.login_field{
+    width: 30rem;
+}
+
+.login_field:hover{
+    box-shadow: 5px 8px #a06c7c;
+}
+
+#login_form input{
+    background-color: #ffd2d9;
+    border-color: #a06c7c;
+}
+
+#login_form input ::placeholder{
+    color: #242424;
+}
+
+#login_img lottie-player{
+    margin-top: 3rem;
+    width: 400px;
+    height: 400px;
+}
+
+@media(max-width:768px){
+  #login_img lottie-player{
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .login_field{
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  #login{
+    margin: auto;
+    text-align: center;
+  }
+  #loginbtn{
+    display: block;
+    margin: auto;
+}
+}
+
+
+#single_donor_form input{
+    background-color: #ffd2d9;
+}
+
+
+
+/* contact start */
+
+#contact1{
+  text-align: center;
+}
+
+#contact1 .sec_heading{
+  color: rgb(144, 6, 6);
+  margin-top: 1.5rem;
+  /* margin-bottom: 0; */
+}
+#contact1 p{
+  font-size: 1.3rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 550;
+}
+.contactcontent{
+  display: flex; 
+  justify-content: center
+}
+.contacticon a svg{
+  color: #af0000;
+  width: 26px;
+  height: auto;
+}
+.form-group label{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form-group input,.form-group textarea, .form-group input:focus:active, .form-group textarea:focus:active, .form-group input:active, .form-group textarea:active, .form-group input:focus, .form-group textarea:focus {
+  background-color: #ffeff1;
+  border-color: #af0000;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.form-group input:hover,.form-group textarea:hover{
+  box-shadow: inset 0 0 0 0.05rem #a30404;
+}
+.contactbtn{
+  justify-content: flex-end;
+}
+.contactbtn button{
+  background-color: #af0000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+}
+
+/* contact end */
